@@ -1,0 +1,147 @@
+
+
+
+body {
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+
+  font-size: 15px;
+  line-height: 1.6; 
+  color: #010101;
+}
+
+
+
+
+  /*Кнопки меню*/
+.header__menu {
+ 
+ padding-top: 105px;
+ 
+}
+
+.header__logo {
+  padding-top: 58px;
+
+}
+
+
+/* левая сторона */
+.header__left {
+    width: 286px;
+    float: left;
+    padding-left: 30px;
+  }
+
+.header__right {
+  float: right;
+}
+
+.logos__right{
+ 
+}
+.nomber{
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.logo{
+  display: inline-block;  
+  margin-right: 30px;
+}
+
+.line2 {
+  border-left: 1px solid black;
+    height: 30px;
+    float: right;
+    margin-right: -170px;
+    margin-top: 40px;
+
+}
+.line{
+  margin-top: -30px;
+  border: 0.5px double;
+  border-color:black;
+  margin-left: 320px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.nav__link {
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    position: relative;
+    
+
+    color: #010101;
+    text-decoration: none;
+
+    transition: color .2s linear;
+    
+  }
+
+.nav__link::before {
+    content:"";
+    
+    width: 100%;
+    height: 3px;
+    display: none;
+    background-color: #010101;
+    ;
+    
+    
+  }
+
+.nav__link:hover {
+    color: darkgoldenrod;
+  }
+
+.nav__link:hover::before {
+    display: block;
+    position: absolute;
+    margin-top: -60px;
+    
+  }
+.baner{
+  
+    
+    width: 100%;
+    
+    
+  
+}
+ 
+.Privacy__policy{
+  font-size: 36px;
+  padding-left: 530px;
+}
+
+.shrift{
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.baner2{
+ 
+}
+
+.materia{
+  margin-top: -300px;
+  margin-left:200px;
+}
+
+.Collections{
+  font-size: 22px;
+  margin-left: 500px;
+  margin-top: -55px;
+}
+
+.About{
+  font-size: 22px;
+  margin-left: 750px;
+  margin-top: -35px;
+}
